@@ -10,4 +10,4 @@ Tricks and traps:
 + Socket portability issues: [How do SO_REUSEADDR and SO_REUSEPORT differ?](https://stackoverflow.com/questions/14388706/how-do-so-reuseaddr-and-so-reuseport-differ);
 + [Awesome "Socket Programming HOWTO"](https://docs.python.org/3/howto/sockets.html);
 
-Have a question? [Make an issue :3](https://github.com/ninedraft/python-udp/issues)
+Have a question? [Make an issue :3](https://github.com/ninedraft/python-udp/issues/new)
