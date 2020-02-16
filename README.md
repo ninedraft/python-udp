@@ -3,7 +3,7 @@ Python udp broadcast client-server example ([previously](https://gist.github.com
 
 ---
 
-Works for python 3.7 and 2.7 for **Mac OS** and **Linux(kernel>=3.9)** hosts. If you'ra using **linux(kernel<3.9)**, then use `socket.O_REUSEADDR` instead of `socket.SO_REUSEPORT` to share `(host, port)` between multiple clients and servers.
+Works for python 3.7 and 2.7 for **Mac OS** and **Linux(kernel>=3.9)** hosts. If you're using **linux(kernel<3.9)**, then use `socket.O_REUSEADDR` instead of `socket.SO_REUSEPORT` to share `(host, port)` between multiple clients and servers.
 
 Tricks and traps:
 
