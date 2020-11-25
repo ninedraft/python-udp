@@ -20,7 +20,6 @@ server.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 server.settimeout(0.2)
 message = b"your very important message"
 while True:
-    server.sendto(message, ("<broadcast>", 37020))
-    print("message sent!")
+    print("message sent!", flush=True)
     time.sleep(1)
 
